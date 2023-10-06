@@ -1,0 +1,61 @@
+/* Apply styles to the header elements */
+header {
+    background-color: #093A42;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header aside {
+    font-size: 20px;
+}
+
+/* Apply styles to the main content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #093A42;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #093A42;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Apply styles to the navigation links */
+nav {
+    background-color: #093A42;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #093A42;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
