@@ -1,4 +1,3 @@
-/* Apply styles to the header elements */
 header {
     background-color: #093A42;
     color: white;
@@ -15,7 +14,6 @@ header aside {
     font-size: 20px;
 }
 
-/* Apply styles to the main content */
 main {
     padding: 20px;
 }
@@ -37,7 +35,6 @@ p {
     line-height: 1.5;
 }
 
-/* Apply styles to the navigation links */
 nav {
     background-color: #093A42;
     padding: 10px;
