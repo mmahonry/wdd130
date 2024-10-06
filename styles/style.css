@@ -1,10 +1,10 @@
 nav {
-  background-color: steelblue;
+  background-color: white;
   padding: 10px;
 }
 
 h1 {
-  color: lightblue;
+  color: darkgray;
 }
 
 img {
@@ -12,7 +12,7 @@ img {
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
-  box-shadow: gray;
+  box-shadow: 0 0 30px gray;
 }
 
 p {
