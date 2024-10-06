@@ -10,7 +10,7 @@ h1 {
   color: rgb(17, 124, 143);
 }
 
-img {
+main img {
   width: 150px;
   height: auto;
   border: 1px solid rgb(155, 155, 155);
@@ -18,6 +18,31 @@ img {
   box-shadow: 0 0 30px rgb(36, 63, 139);
 }
 
+main {
+  max-width: 840px;
+}
+
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px rgb(44, 42, 129);
+  padding: 1rem;
+  background-color: rgb(17, 124, 143) ;
+  color: #333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
 p {
-  padding: 10px;
+  padding: 0;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
