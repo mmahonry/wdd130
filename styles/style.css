@@ -1,21 +1,21 @@
 nav {
-  background-color: burlywood;
+  background-color: rgb(182, 183, 190);
   padding: 10px;
 }
 
-nav a {color:azure ;
+nav a {color:rgb(0, 0, 0) ;
 }
 
 h1 {
-  color: darkgray;
+  color: rgb(17, 124, 143);
 }
 
 img {
   width: 150px;
   height: auto;
-  border: 1px solid steelblue;
+  border: 1px solid rgb(155, 155, 155);
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: 0 0 30px rgb(36, 63, 139);
 }
 
 p {
