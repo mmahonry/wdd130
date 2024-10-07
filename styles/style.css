@@ -1,5 +1,5 @@
 nav {
-  background-color: rgb(182, 183, 190);
+  background-color: rgb(129, 158, 136);
   padding: 10px;
 }
 
@@ -7,7 +7,7 @@ nav a {color:rgb(0, 0, 0) ;
 }
 
 h1 {
-  color: rgb(17, 124, 143);
+  color: rgb(48, 100, 64);
 }
 
 main img {
@@ -27,7 +27,7 @@ aside {
   margin: 1rem;
   border: 1px rgb(44, 42, 129);
   padding: 1rem;
-  background-color: rgb(17, 124, 143) ;
+  background-color: rgb(216, 165, 123) ;
   color: #333;
   text-align: center;
 }
