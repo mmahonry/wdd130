@@ -1,60 +1,101 @@
-/* Define CSS Variables */
+/* Define CSS  */
 :root {
-    --primary-color: #FFD907; /* Bright Yellow */
-    --secondary-color: #FF9C00; /* Vibrant Orange */
-    --accent1-color: #B2EDFC; /* Light Blue */
-    --accent2-color: #007BFF; /* Deep Blue */
-    --text-color: #333333; /* Dark Gray for text */
-    --footer-bg-color: #f8f9fa; /* Light Gray for footer background */
+    --primary-color: #FFD907; 
+    --secondary-color: #FF9C00; 
+    --accent1-color: #B2EDFC;
+    --accent2-color: #007BFF;
+    --text-color: #333333; 
+    --footer-bg-color: #f8f9fa;
 }
 
-/* General Styles */
 body {
-    font-family: 'Open Sans', sans-serif; /* Body font */
+    font-family: 'Open Sans', sans-serif;
     color: var(--text-color);
-    max-width: 1200px; /* Limit the width of the page */
-    margin: 0 auto; /* Center the content */
-    padding: 20px; /* Add some padding */
-    background-color: var(--accent1-color); /* Light blue background */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hero img.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--primary-color);
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    max-width: 60%;
+    z-index: 2;
+    border-radius: 8px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    width: 30%;
+    height: auto;
+}
+
+.hero article p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1em;
 }
 
 /* Heading Styles */
-h1 {
-    font-family: 'Montserrat', sans-serif; /* Heading font */
-    color: var(--primary-color); /* Bright Yellow */
-    font-size: 2.5em; /* Adjust size as needed */
-    margin: 20px 0; /* Space above and below */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif; /* Heading font */
-    color: var(--secondary-color); /* Vibrant Orange */
-    font-size: 2em; /* Adjust size as needed */
-    margin: 15px 0; /* Space above and below */
-}
-
-/* Paragraph Styles */
-p {
-    font-size: 1em; /* Adjust size as needed */
-    line-height: 1.5; /* Improve readability */
-    color: var(--text-color); /* Dark Gray for text */
-    margin: 10px 0; /* Space above and below paragraphs */
-}
-
-/* Social Media Links */
-.sociallinks a {
-    text-decoration: none; /* Remove underline from social media image links */
-}
-
-.sociallinks img {
-    width: 30px; /* Adjust size of social media icons */
-    height: auto; /* Maintain aspect ratio */
+    color: var(--secondary-color);
+    font-size: 2em;
+    margin: 15px 0;
 }
 
 /* Footer Styles */
 footer {
-    background-color: var(--footer-bg-color); /* Light Gray for footer */
-    padding: 10px; /* Add padding */
-    text-align: center; /* Center the text */
-    margin-top: 20px; /* Space above footer */
+    background-color: var(--footer-bg-color);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    
+    /* Social Media Links */
+.sociallinks {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.sociallinks a {
+    margin: 0 10px; 
+}
+
+.sociallinks img {
+    width: 25px; 
+    height: 25px; 
+}
+
 }
