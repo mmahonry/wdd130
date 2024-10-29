@@ -22,6 +22,11 @@ main {
   max-width: 840px;
 }
 
+span {
+  background-color: rgb(93, 126, 93);
+  color: rgb(112, 49, 49);
+}
+
 aside {
   width: 20rem;
   margin: 1rem;

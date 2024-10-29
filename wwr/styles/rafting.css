@@ -1,0 +1,60 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #FFD907; /* Bright Yellow */
+    --secondary-color: #FF9C00; /* Vibrant Orange */
+    --accent1-color: #B2EDFC; /* Light Blue */
+    --accent2-color: #007BFF; /* Deep Blue */
+    --text-color: #333333; /* Dark Gray for text */
+    --footer-bg-color: #f8f9fa; /* Light Gray for footer background */
+}
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Body font */
+    color: var(--text-color);
+    max-width: 1200px; /* Limit the width of the page */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add some padding */
+    background-color: var(--accent1-color); /* Light blue background */
+}
+
+/* Heading Styles */
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Heading font */
+    color: var(--primary-color); /* Bright Yellow */
+    font-size: 2.5em; /* Adjust size as needed */
+    margin: 20px 0; /* Space above and below */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Heading font */
+    color: var(--secondary-color); /* Vibrant Orange */
+    font-size: 2em; /* Adjust size as needed */
+    margin: 15px 0; /* Space above and below */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1em; /* Adjust size as needed */
+    line-height: 1.5; /* Improve readability */
+    color: var(--text-color); /* Dark Gray for text */
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+/* Social Media Links */
+.sociallinks a {
+    text-decoration: none; /* Remove underline from social media image links */
+}
+
+.sociallinks img {
+    width: 30px; /* Adjust size of social media icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-bg-color); /* Light Gray for footer */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Space above footer */
+}
