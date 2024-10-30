@@ -158,3 +158,144 @@ footer p {
     width: 25px; 
     height: 25px; 
 }
+
+/* Specific Styles for Contact Us Page */
+/* Specific Styles for Contact Us Page */
+
+h1 {
+    font-size: 2.5em; /* Larger font size for the main heading */
+    color: #FF9C00; /* Primary color for the heading */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-family: 'Montserrat', sans-serif; /* Font family */
+}
+
+h4 {
+    font-size: 1.2em; /* Slightly larger font size for the subheading */
+    color: #555; /* Dark gray color for the subheading */
+    text-align: center; /* Center the subheading */
+    margin-bottom: 30px; /* Space below the subheading */
+    font-family: 'Open Sans', sans-serif; /* Font family */
+}
+
+.contact-layout {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the map and company info */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.map {
+    flex: 1; /* Take up half of the available space */
+    margin-right: 10px; /* Space between map and company info */
+}
+
+.map iframe {
+    width: 100%; /* Make the iframe take the full width */
+    height: 100%; /* Make the iframe take the full height */
+    border: none; /* Remove default border */
+}
+
+.company-info {
+    flex: 1; /* Take up half of the available space */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Optional: background color for contrast */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin-top: 70px;
+}
+
+.sociallinks {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: left; /* Center the social links horizontally */
+    margin-top: 20px; /* Add some space above the social links */
+}
+
+.sociallinks a {
+    margin: 0 10px; /* Space between icons */
+}
+
+.sociallinks img {
+    width: 25px; /* Set the size of the icons */
+    height: 25px; 
+}
+
+
+.employee-profiles {
+    display: flex;
+    flex-direction: column; /* Stack the heading on top of the images */
+    align-items: center; /* Center the heading and images */
+}
+
+.employee-profiles h2 {
+    margin-bottom: 15px; /* Space between the heading and the images */
+    margin-top: 70px;
+}
+
+.employee-profiles .profile-images {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to ensure all images fit in one line */
+    justify-content: space-between; /* Space out the images evenly */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.employee-profiles figure {
+    flex: 0 0 30%; /* Set a fixed width for each employee profile */
+    margin: 5px; /* Space between figures */
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 70%; /* Set a smaller width for employee images to fit in one line */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make employee images circular */
+    border: 2px solid var(--primary-color); /* Add border to images */
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Align radio buttons in a row */
+.contact-form .radio-group {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and label */
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+    margin-top: 15px; /* Adds space above the container */
+}
+
+.subscribe-container input[type="checkbox"] {
+    margin-right: 5px; /* Space between checkbox and label */
+}
+
+.submit-button {
+    margin-left: 10px; /* Space between the label and the button */
+    padding: 10px 15px; /* Adjust padding for better appearance */
+}
+
+
+
