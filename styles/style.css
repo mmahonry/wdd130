@@ -15,7 +15,6 @@ h1 {
 
 main img {
   width: 150px;
-  height: right;
   border: 1px solid rgb(122, 120, 120);
   padding: 2px;
   box-shadow: 0 0 10px rgba(36, 63, 139, 0.5); 
@@ -23,7 +22,6 @@ main img {
 
 main {
   max-width: 840px;
-  margin: right; /* Fix: Center content */
 }
 
 span {
