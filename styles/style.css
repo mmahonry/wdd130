@@ -30,7 +30,7 @@ span {
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px rgb(44, 42, 129);
+  border: 1px solid rgb(44, 42, 129);
   padding: 1rem;
   background-color: rgb(216, 165, 123) ;
   color: #333;
